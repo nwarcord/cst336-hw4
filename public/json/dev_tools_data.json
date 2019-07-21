@@ -1,0 +1,58 @@
+[
+    {
+        "sidebar": [
+            {
+                "id": "godot_comment",
+                "content": "Godot also supports 3D, but I cannot speak to its quality. The team continues to upgrade it."
+            }
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "Game Engines",
+        "block": [
+            "Building a game from scratch can be rewarding. Using simple tools for tinkering can be fun and informative. But, for most people, using a game engine is going to be the best route forward.",
+            "I understand that some people may get turned-off because of needing to learn how to navigate a complex piece of software before you can put the first pixel on the screen. This is a short-term problem. Once you are familiar with the tools, your productivity will grow exponentially.",
+            "So what engine to choose? It depends on the game, your intent, and the size of your team.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "2D game, small team (or solo)",
+        "block": [
+            "The best options here are Godot and Unity. Both are great for people of all skill levels and all team sizes. <a href='https://www.gamasutra.com/view/news/331151/For_Lucas_Pope_Return_of_the_Obra_Dinn_was_a_bunch_of_appealing_design_problems.php' target='_blank'>Return of the Obra Dinn</a> was made in Unity solo. <a href='https://unity.com/madewith/hollow-knight' target='_blank'>Hollow Knight</a> was made in Unity with a team of three. Godot hasn't had a big release game yet, but the engine is free, open-source, actively updated, takes no royalties, and offers a fresh take on game development.",
+            "As an honorable mention, GameMaker studio was the first game engine I ever used. It was decent enough, but definitely confused me more than helped me at the time. That said, while it can be a great option for 2D games, the monetization model has become expensive. Unity and Godot are free (unless you buy the Unity pro license) and, in my opinion, offer a better experience.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "figure",
+        "class": "content_img",
+        "image": "<img src='img/hollow_knight_parallax.gif' alt='Unity engine exmaple'/>",
+        "caption": "Parallax view of Hollow Knight in Unity<br><i>Source: Team Cherry</i>"
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "3D game, larger team",
+        "block": [
+            "Unreal is a powerful engine, but can be difficult to navigate (including their documentation). For small projects (especially 2D!) I would recommend staying far away from Unreal. For 3D, and if you have a larger team, it's hard to beat.",
+            "Unity is probably the best option for 3D games with a smaller team or smaller scope. It's versatile and well-documented.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h3",
+        "heading": "Quick note for prototyping:",
+        "block": [
+            "Sometimes a full game engine isn't necessary for early prototyping. Tools like Stencyl can be great for throwing ideas together fast. Of course, one of the best early options is *gasp* pen-and-paper.",
+            "hr",
+            "Links for game engines can be found on the <a href='sources.html'>sources</a> page."
+        ]
+    }
+]

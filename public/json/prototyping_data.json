@@ -1,0 +1,36 @@
+[
+    {
+        "sidebar": [
+            {
+                "id": "seven_day_proto",
+                "content": "<a href='https://www.gamasutra.com/view/feature/130848/how_to_prototype_a_game_in_under_7_.php' target='_blank'>How does seven days sound for prototyping?</a>"
+            }
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "The Idea",
+        "block": [
+            "Make sure you have one. It can be as simple as a gameplay mechanic that you want to test out or an iteration on a favorite genre. But, what you do not want, is to have nothing when you sit down to build. The idea will change, and may be scrapped entirely, but that is okay."
+        ]
+    },
+
+    {
+        "headerType": "figure",
+        "class": "prototype_img content_img",
+        "image": "<img src='/img/prototype_lessons.png' alt='Prototype Rules'/>",
+        "caption": "<i>Source: <a href='https://medium.theuxblog.com/lessons-in-prototyping-from-game-design-8752df8daa8b' target='_blank'>Amar Singh - Medium</a></i>"
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Gotta go fast",
+        "block": [
+            "That idea you have? May not be that great. Probably isn't that great. So hurry up and build something so you can see that, yup, it isn't great. What is great is crossing that idea off your mental list. Does that mean scrap it? It depends (was it not great, or did you temporarily lose consciousness from the sudden sensation of smelling the stink of digital media for the first time). My guess is that there is something there in that idea to salvage and build on. That is what iterative prototyping is about.",
+
+            "The trick is building fast, getting the idea down as quickly as possible, so you can analyze it and determine if it is worth pursuing (you don't want to waste time on bad ideas). You build something small, learn from it, and debrief. Then you build something else, perhaps a little larger, then learn from it, and debrief. And on and on and on until you now have something that is, in fact, a thing. A thing that you know is great and has been put through its paces. It may be time for one last iteration to polish it all, or it might be done as-is."
+        ]
+    }
+
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "sidebar": [
+            {
+                "id": "opening_comment",
+                "content": "If there is any information that is inaccurate, I apologize and welcome feedback. If there is an opinion you disagree with, such is life."
+            }
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "Overview",
+        "block": [
+            "The content has been broken into four main topics: Prototyping, Design Patterns, Development Tools, and AI. Game development can hardly fit into these few categories alone, but I tried to pick topics that I feel are a good starting point for learning more about game creation. If I were to expand the information presented, I would talk about procedural generation, physics, 2D and 3D lighting techniques, and so on.",
+            "Within each topic, I have given <i>brief</i> descriptions and have left some information out due to constraints. Each topic could have a whole site devoted to it, so I presented the information that seemed to be in the forefront of my mind.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "An offer of information",
+        "block": [
+            "Through this site, I hope to pass on some of the information I have gathered about game development over the past few years. I am not an authority (I'm still learning as well!), but hopefully anyone who reads this and has thought about creating a game will find something of value (and perhaps save you some tears and frustration and late-night Googling)."
+        ]
+    }
+]

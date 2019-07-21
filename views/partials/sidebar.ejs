@@ -1,0 +1,9 @@
+<div class="sidebar">
+    <% data[0]["sidebar"].forEach(function(comment) { %>
+        <p id="<%= comment["id"] %>">
+            <%- comment["content"] %>
+        </p>
+    <% }); %>
+</div>
+
+<div class="divider_bar"></div>

@@ -1,0 +1,50 @@
+[
+    {
+        "headerType": "h1",
+        "heading": "Sources by section",
+        "block": [
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Prototyping",
+        "block": [
+            "Personal note: Jesse Schell presents information about targeting girls and boys differently, using claims that are unfounded and antiquated, to the point I almost didn't mention the text. But, the information outside of that segment is great enough to warrant ripping those pages out.<br><br><a href='https://www.amazon.com/The-Art-Game-Design-Edition/dp/1466598646/ref=dp_ob_title_bk' target='_blank'>The Art of Game Design by Jesse Schell</a>",
+            "<a href='https://medium.theuxblog.com/lessons-in-prototyping-from-game-design-8752df8daa8b' target='_blank'>Article on prototyping: Amar Singh - Medium</a>"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Design Patterns",
+        "block": [
+            "Game Programming Patterns by Robert Nystrom is available in print, but he also has the entire text for free on his site if you don't mind reading in your browser. One of the best game programming books I've seen.<br><br><a href='http://www.gameprogrammingpatterns.com/' target='_blank'>His site with book options</a><br><a href='http://www.gameprogrammingpatterns.com/contents.html' target='_blank'>Free browser version</a>"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Dev Tools",
+        "block": [
+            "<a href='https://godotengine.org/' target='_blank'>Godot</a><br><a href='https://unity.com/' target='_blank'>Unity</a><br><a href='https://www.unrealengine.com/en-US/' target='_blank'>Unreal</a><br><a href='https://www.yoyogames.com/gamemaker' target='_blank'>GameMaker</a><br><a href='http://www.stencyl.com/' target='_blank'>Stencyl</a><br>"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Game \"AI\"",
+        "block": [
+            "Refer to the <a href='/game_ai'>Game \"AI\"</a> page for sources of common approaches."
+        ]
+    },
+
+    {
+        "headerType": "h3",
+        "heading": "Further Game AI reading:",
+        "block": [
+            "<a href='https://www.gamasutra.com/blogs/JakobRasmussen/20160427/271188/Are_Behavior_Trees_a_Thing_of_the_Past.php' target='_blank'>More on utility AI</a><br><a href='http://sitn.hms.harvard.edu/flash/2017/ai-video-games-toward-intelligent-game/' target='_blank'>AI in Video Games: Toward a More Intelligent Game - Harvard</a><br><a href='http://intrinsicalgorithm.com/IAonAI/2013/02/both-my-gdc-lectures-on-utility-theory-free-on-gdc-vault/' target='_blank'>Dave Mark's GDC Lectures on Utility AI</a><br><a href='https://software.intel.com/en-us/articles/designing-artificial-intelligence-for-games-part-1' target='_blank'>Designing AI for Games - Intel dev blog post</a><br><a href='https://www.gamedev.net/articles/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/' target='_blank'>Good beginners guide for game AI - Ben Sizer on gamedev.net</a><br>"
+        ]
+    }
+]

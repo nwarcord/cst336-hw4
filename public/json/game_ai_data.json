@@ -1,0 +1,118 @@
+[
+    {
+        "sidebar": [
+            {
+                "id": "ai_comment",
+                "content": "This information may seem obvious to some, but it is worth restating."
+            },
+
+            {
+                "id": "ai_exploit_comment",
+                "content": "Players are going to find exploits in gameplay. It's when those exploits are lazy / glaring / severe that the player experiences the <b>one</b> thing you don't want them to: boredom."
+            },
+
+            {
+                "id": "ai_fsm_comment",
+                "content": "I didn't mention Finite State Machines because they're usage is limited and simple in game AI. Still an option though."
+            },
+
+            {
+                "id": "ai_randgen_comment",
+                "content": "Worth mentioning, I have not touched on systems for procedural generation. That topic would require its own section."
+            }
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "Game \"AI\" = Not actual AI",
+        "block": [
+            "When game developers create characters to attack the player in a FPS, or strategic-adversaries in a 4X-strategy game, they are not creating (nor are they trying to) intelligent entities that learn and adapt and so on.",
+            "More often, the \"AI\" being created for a game is the <i>illusion</i> of intelligence. You want the player to, within reason, feel as if they are interacting with believable entities. This often means having well-defined behavior or decisions designed before-hand. But, wouldn't an intelligent opponent make for more immersive gameplay? No, for a couple of reasons."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "The agents become too smart...or dumb",
+        "block": [
+            "<a href='https://en.wikipedia.org/wiki/Machine_learning' target='_blank'>Machine learning</a> is hard. What if the agent learns something that you didn't foresee? Now you have compromised your gameplay. Emergent behavior is fun, but not when it completely takes away your ability as a developer to fine-tune the gaming experience. Yes, it might be interesting to discover your NPCs or enemies doing weird actions, but it probably doesn't result in interesting gameplay. (Unless, of course, you're Dwarf Fortress, in which case, NPCs getting drunk and lighting themselves on fire before throwing themselves off a cliff into the ocean is perfectly normal. And fun.)",
+            "Another danger is predictability. If a player knows that an opponent is learning from their actions, they may try to \"push\" their learning in a particular direction. The agent might think, \"Oh, they always attack the fort on the east.\" When all of their defenses are then placed on the east, the player can now exploit that behavior and attack from the opposing side. This is a basic example. It could be possible to have an agent learn during development by having someone play the game \"correctly\" and give the agent experience, then lock their learning when it is adequate enough (not <i>too</i> smart)."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Challenging, not optimal",
+        "block": [
+            "<a href='https://www.gamedev.net/articles/programming/artificial-intelligence/the-total-beginners-guide-to-game-ai-r4942/' target='_blank'>You don't actually want an agent that takes the optimal path every time.</a> The agents are there to provide fun and entertainment. To provide a challenge. When creating a game, you typically have an idea in your head of how the gameplay should run. This means that there is desired behavior you want from the game and the agents within. So just program them with that behavior.",
+            "The hard part is, doing so without the agents revealing themselves to the player as nothing but instruction-driven puppets. How this will be achieved comes down to the type of game you are making. Usually, you want to construct a list of the various choices / actions the agent could take and then decide how they will pick one over the other. If the game is a combat-focused game, you probably want an enemy to prioritize combat actions over idle actions. If the agents are NPCs, you want them to prioritize interactions with the player, not walking off and playing through a scripted conversation with another NPC (I'm looking at you old-school WoW)."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "In summary",
+        "block": [
+            "Game AI is all about choices and how the system / agent will make those choices <b>according to the design of gameplay</b>.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "Common Approaches",
+        "block": [
+            "<div class='ai_approaches'>",
+            "<b>Note: based off of external sources and with a focus on game application.</b>"
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "<a href='' target='_blank'>Behavior / Decision Trees</a>",
+        "block": [
+            "Simple and effective. For most simple games, decision trees are more than adequate and will always get the job done."
+        ]
+    },
+
+    {
+        "headerType": "figure",
+        "class": "content_img",
+        "image": "<img src='img/behavior_tree.png' alt='Behavior Tree'/>",
+        "caption": "A simple behavior tree. <i>Source: Ben Sizer - gamedev.net</i>"
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "<a href='https://en.wikipedia.org/wiki/Monte_Carlo_tree_search' target='_blank'>Monte Carlo tree search</a>",
+        "block": [
+            "Famously used for AlphaGo (could be used with learning, but depends if you're attempting to create an unbeatable opponent, or fun gameplay)."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "<a href='http://www.gameaipro.com/GameAIPro/GameAIPro_Chapter09_An_Introduction_to_Utility_Theory.pdf' target='_blank'>Utility-based decisions</a>",
+        "block": [
+            "Build graphs and calculate a heuristic value for a given decision."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "<a href='https://en.wikipedia.org/wiki/A*_search_algorithm' target='_blank'>A* (Pathfinding)</a>",
+        "block": [
+            "Allows for quick pathfinding without the need to traverse the entire graph beforehand."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "<a href='https://www.researchgate.net/publication/235763103_Developing_a_fuzzy_logic_based_game_system' target='_blank'>Fuzzy Logic / Maps</a>",
+        "block": [
+            "Not widely used, but possible to create values for decisions and behaviors, picking the one that has the highest value at the time (with variation).",
+            "</div>"
+        ]
+    }
+]

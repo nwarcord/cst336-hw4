@@ -1,0 +1,65 @@
+[
+    {
+        "sidebar": [
+            {
+                "id": "component_source",
+                "content": "For more information on composition with games: <a href='http://www.gameprogrammingpatterns.com/component.html' target='_blank'>Component - Game Programming Patterns</a>"
+            },
+            {
+                "id": "comment_on_data",
+                "content": "Depending on your needs and tools, the format you choose will vary. JSON, XML, TXT, use what works. Keep in mind serialization, if it is needed."
+            }
+        ]
+    },
+
+    {
+        "headerType": "h3",
+        "heading": "Note on design and when to use it:",
+        "block": [
+            "At the start of a game project, you should be in the <a href='/prototyping'>prototyping</a> phase and good design practices should not be on your mind. You're testing and building and failing and rebuilding, etc. Don't perfect something you may throw away.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "Composition Over Inheritance",
+        "block": [
+            "Separating out functionality into \"components\" which can be combined using generic objects (such as a GameObject in Unity)."
+        ]
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Troubleshooting",
+        "block": [
+            "When designing games, it can be very tempting to go down inheritance pits, gazing up from the bottom wondering where the light went. You make a Monster base class, and then a Goblin:Monster, and then GoblinShaman:Goblin, and then LaknokTheAlmighty:GoblinShaman. But Laknok has a bug and doesn't engage the party as you presumed, instead targeting random objects and never using abilities. Time to traverse the entire hierarchy! (and resist the urge to decorate your monitor with your keyboard)",
+            "With composition, you would probably have a component that handled targeting / AI routines and could look for the bug there. Could be something in the behavior / decision making system. Either way, the troubleshooting becomes a much easier problem to deal with. Composition also opens up the option of creating a mock entity with limited components placed on them, allowing you to plug-in and take-out different pieces to find the faulty one."
+        ]
+    },
+
+    {
+        "headerType": "figure",
+        "class": "content_img",
+        "image": "<img src='/img/entity_composition.png' alt='Entity Composition'/>",
+        "caption": "<i>Source: <a href='https://developer.apple.com/library/archive/documentation/General/Conceptual/GameplayKit_Guide/EntityComponent.html' target='_blank'>GameplayKit Guide</a> - Apple</i>"
+    },
+
+    {
+        "headerType": "h2",
+        "heading": "Designer's Delight",
+        "block": [
+            "With all (or most) of your systems and behaviors being confined to individual components, you now have the opportunity to actually build things with the pieces. Instead of relying on or fighting with whatever functionality is being passed down a hierarchy, components can be mixed-and-matched to create unique behaviors. This experimentation is, not only a cleaner process of creation, but a great deal of fun too. The emergent behavior you can occasionally witness is crazy and exciting.",
+            "hr"
+        ]
+    },
+
+    {
+        "headerType": "h1",
+        "heading": "Separating Data",
+        "block": [
+            "Keeping game data in a separate file seems obvious, it seems like a common-sense thing to do, but laziness and forgetfulness can often supersede good sense.",
+            "One benefit for keeping data separate, even early on in development, is that values can be changed on the fly. If you have a system running based on values it pulls from a data file, tweaking those by hand while the game is running can allow you to see the effects in real time. It also allows you to focus on the code, knowing the data is there for testing when you need it."
+        ]
+    }
+]

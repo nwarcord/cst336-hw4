@@ -1,0 +1,17 @@
+<% data.forEach(function (obj) { %>
+    <% if (obj["headerType"] == "figure") { %>
+        <figure class="<%= obj["class"] %>">
+            <%- obj["image"] %>
+        <figcaption> <%- obj["caption"] %> </figcaption>
+        </figure>
+    <% } else if (obj["headerType"]){ %>
+        <<%= obj["headerType"] %>><%- obj["heading"] %></<%= obj["headerType"] %>>
+        <% obj["block"].forEach(function (para) { %>
+            <% if (para == "hr") {%>
+                <hr>
+            <% } else { %>
+                <p><%- para %></p>
+            <% } %>
+        <% }); %>
+    <% } %>
+<% }); %>
