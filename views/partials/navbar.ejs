@@ -1,11 +1,17 @@
 <div class="navbar">
-    <a href="/#">Home</a>
+    <a href="/">Home</a>
     <a href="/prototyping">Prototyping</a>
     <a href="/design_patterns">Design Patterns</a>
     <a href="/dev_tools">Dev Tools</a>
     <a href="/game_ai">Game "AI"</a>
-    <a href="/sources" id="sources">Sources</a>
+    <a href="/testimonials" id="testimonials"><span style="color: red;">New!</span> Testimonials</a>
+    <a href="/sources">Sources</a>
 </div>
+
+<script>
+var currentPage = location.pathname;
+$("a[href='" + currentPage + "']").addClass("current_page");
+</script>
 
 <div class="divider_bar"></div>
 

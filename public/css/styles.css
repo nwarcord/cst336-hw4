@@ -5,6 +5,7 @@
     --darker-violet: rgb(61, 50, 66);
     --lighter-violet: rgb(157, 139, 165);
     --gray-blue: rgb(73, 95, 117);
+    --link-color: rgb(186, 218, 250);
     max-width: 1366px;
     margin: auto;
     background-color: darkgray;
@@ -29,7 +30,7 @@
     color: var(--darker-violet);
 }
 
-#sources {
+#testimonials {
     margin-left: auto;
 }
 
@@ -47,7 +48,7 @@
     object-fit: cover;
 }
 
-#head_text {
+.head_text {
     white-space: nowrap;
     position: absolute;
     text-align: center;
@@ -74,6 +75,16 @@
     }
 }
 
+.small_header {
+    justify-content: left;
+    max-height: 75px;
+}
+
+.small_head_text {
+    padding-left: 16px;
+    font-size: 56px;
+}
+
 .body_content {
     display: flex;
     min-height: 720px;
@@ -97,7 +108,7 @@
 }
 
 #seven_day_proto a {
-    color: var(--lighter-violet);
+    color: var(--link-color);
     font-weight: bold;
 }
 
@@ -106,7 +117,7 @@
 }
 
 #component_source a {
-    color: var(--lighter-violet);
+    color: var(--link-color);
     font-weight: bold;
 }
 
@@ -142,7 +153,7 @@
 }
 
 .content_block a {
-    color: var(--darker-violet);
+    color: var(--link-color);
     font-weight: bold;
 }
 
@@ -170,7 +181,7 @@
 }
 
 .sources_list a {
-    color: var(--lighter-violet);
+    color: var(--link-color);
     font-weight: bold;
 }
 
@@ -180,6 +191,11 @@
 
 .prototype_img img:hover {
     transform: scale(1.5);
+}
+
+#testimonial_content blockquote{
+    padding: 32px;
+    font-size: 1.3em;
 }
 
 footer {
