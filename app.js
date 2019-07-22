@@ -40,7 +40,7 @@ app.get("/testimonials", function(req, res) {
         data: data,
         first: {
             "area": faker.commerce.department(),
-            "name": faker.fake("{{name.firstName}} {{name.lastName}}, {{name.jobDescriptor}} of {{company.companyName}}")
+            "name": faker.fake("{{name.firstName}} {{name.lastName}}, {{name.jobTitle}} of {{company.companyName}}")
         },
         second: {
             "adj": faker.company.catchPhraseAdjective().toLowerCase(),
