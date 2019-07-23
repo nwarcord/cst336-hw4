@@ -198,6 +198,10 @@
     font-size: 1.3em;
 }
 
+.quote_author {
+    padding-left: 64px;
+}
+
 footer {
     background-color: var(--gray-blue);
     color: var(--light-font);
